@@ -35,3 +35,7 @@ marquee.draw();
 - `offset` {number} text move step, default is 1
 - `gap` {number} text item gap
 - `color` {string} text color
+
+## preview
+
+![marquee](./doc/marquee.png)
