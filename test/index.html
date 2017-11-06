@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>marquee test</title>
+</head>
+<body>
+    <h2>marquee test</h2>
+    <canvas id="canvas" width="500" height="30"></canvas>
+    <script src="../dist/canvas-marquee.js"></script>
+    <script>
+        var textList = ['弹幕', '666', '233333333',
+                'javascript', 'html', 'css', '前端框架', 'Vue', 'React',
+                'Angular', '测试弹幕效果'
+            ];
+        var opts = {
+            id:'canvas',
+            data:textList,
+            top:20,
+            offset:1,
+            gap:10,
+            font:'20px Arial',
+            color:'#339966'
+        };
+        var marquee = new Marquee(opts);
+        marquee.draw();
+    </script>
+</body>
+</html>

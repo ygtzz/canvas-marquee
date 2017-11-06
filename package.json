@@ -1,0 +1,30 @@
+{
+  "name": "canvas-marquee",
+  "version": "0.0.1",
+  "description": "canvas marquee",
+  "main": "./dist/canvas-marquee.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "test"
+  },
+  "keywords": [
+    "marquee",
+    "canvas"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ygtzz/canvas-marquee.git"
+  },
+  "author": "ygtzz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ygtzz/canvas-marquee/issues"
+  },
+  "homepage": "https://github.com/ygtzz/canvas-marquee#readme",
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "6.x",
+    "babel-preset-es2015": "6.18.0",
+    "webpack": "3.x"
+  }
+}
