@@ -1,6 +1,6 @@
 {
   "name": "canvas-marquee",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "canvas marquee",
   "main": "./dist/canvas-marquee.js",
   "scripts": {
