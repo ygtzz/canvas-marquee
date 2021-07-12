@@ -1,3 +1,6 @@
+//TODO：
+//1. 支持纵向文字滚动
+//2. 支持多行文字滚动
 class Marquee {
     constructor(opts) {
         this.opts = opts;
@@ -90,5 +93,5 @@ function isNumber(obj) {
     return obj === +obj  
 }
 
-// export {Marquee};
-// export default Marquee;
+export {Marquee};
+export default Marquee;
