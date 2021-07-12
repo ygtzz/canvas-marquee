@@ -5,7 +5,7 @@
   "main": "./dist/canvas-marquee.js",
   "scripts": {
     "build": "webpack",
-    "test": "test"
+    "test": "anywhere test"
   },
   "keywords": [
     "marquee",
