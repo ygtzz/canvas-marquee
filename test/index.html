@@ -9,20 +9,22 @@
 <body>
     <h2>marquee test</h2>
     <canvas id="canvas" width="500" height="30"></canvas>
+    <!-- <script src="../src/index.js"></script> -->
     <script src="../dist/canvas-marquee.js"></script>
     <script>
-        var textList = ['弹幕', '666', '233333333',
+        var textList = ['开始', '666', '233333333',
                 'javascript', 'html', 'css', '前端框架', 'Vue', 'React',
-                'Angular', '测试弹幕效果'
+                'Angular', '结束'
             ];
         var opts = {
             id:'canvas',
             data:textList,
             top:20,
-            offset:1,
+            offset:0.8,
             gap:10,
             font:'20px Arial',
-            color:'#339966'
+            color:'#339966',
+            start: 200
         };
         var marquee = new Marquee(opts);
         marquee.draw();
