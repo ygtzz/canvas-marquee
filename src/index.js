@@ -49,7 +49,7 @@ class Marquee {
             }
         }
         else{
-            this.lastLeft = this.w;
+            this.lastLeft = this.getLastLeft();
             this.data.forEach((t) => {
                 this.shoot(t);
             })
@@ -71,7 +71,24 @@ class Marquee {
         this.lastWidth = width;
         return this.lastLeft;
     }
+    getLastLeft(){
+        let {start} = this.opts;
+        //default is left
+        let res = 0;
+        if(start == 'right'){
+            res = this.w;
+        }
+        else if(isNumber(start)){
+            res = start;
+        }
+        return res;
+    }
 }
 
-export {Marquee};
-export default Marquee;
+
+function isNumber(obj) {  
+    return obj === +obj  
+}
+
+// export {Marquee};
+// export default Marquee;
