@@ -74,3 +74,4 @@ class Marquee {
 }
 
 export {Marquee};
+export default Marquee;
