@@ -5,13 +5,11 @@ a marquee component based on canvas
 ## Installation
 ```bash
 npm i canvas-marquee -S
-
-yarn add canvas-marquee
 ```
 
 ## Usage
 ```javascript
-import Marquee from 'canvas-marquee';
+import {Marquee} from 'canvas-marquee';
 var textList = ['跑马灯', '666', '233333333',
         'javascript', 'html', 'css', '前端框架', 'Vue', 'React',
         'Angular', '测试跑马灯效果'
